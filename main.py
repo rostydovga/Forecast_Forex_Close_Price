@@ -12,11 +12,11 @@ def main():
     df = data_fetcher.get_dataframe()
 
     # data exploration and analysis
-    # plot_historic_data(df)
+    plot_historic_data(df)
 
-    # plot_seasonal_decomposition(df)
+    plot_seasonal_decomposition(df)
 
-    # plot_seasonality(df)
+    plot_seasonality(df)
 
     # implement the ARIMA model
     print("### ARIMA MODEL ###")
